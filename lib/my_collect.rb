@@ -2,7 +2,7 @@ def my_collect(array)
   modified_array = []
   i = 0
   while i < array.length
-    modified_array.push(yeild(array[i].split(" ").first))
+    modified_array.push(yield(array[i].split(" ").first))
     i += 1
   end
   modified_array
